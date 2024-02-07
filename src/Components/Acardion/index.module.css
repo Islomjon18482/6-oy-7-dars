@@ -1,0 +1,62 @@
+.acardion{
+    margin: 0px auto;
+    width: 410px;
+    height: 254px;
+    border-radius: 4px;
+    background: rgb(71, 71, 71);
+    display: flex;
+    gap: 5px;
+    padding: .4em;
+  }
+
+  button{
+    border: none;
+  }
+
+  .acardion p {
+    height: 100%;
+    flex: 1;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all .5s;
+    background: rgb(63, 63, 63);
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .acardion p:hover {
+    flex: 4;
+  }
+
+  .acardion p h2{
+    display: none;
+    text-align: center;
+    padding: 15px;
+    font-size: 12px;
+    color: white;
+  }
+ 
+  .acardion p:hover span{
+    display: none;
+  }
+
+  .acardion p:hover h2{
+    display: block;
+  }
+
+  .acardion p span {
+    min-width: 20em;
+    padding: .5em;
+    text-align: center;
+    transform: rotate(0deg);
+    transition: all .5s;
+    color: white;
+    letter-spacing: .1em;
+  }
+  
+
+
+  
